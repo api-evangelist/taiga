@@ -1,0 +1,76 @@
+aid: taiga
+name: Taiga
+description: >
+  Taiga is an open-source agile project management platform with a comprehensive
+  REST API for managing projects, sprints, user stories, issues, tasks, epics,
+  wiki pages, webhooks, and team member assignments. The API supports both
+  standard bearer token and application token authentication, with optional
+  server-side throttling. Available as a cloud-hosted service or self-hosted
+  deployment.
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+url: https://raw.githubusercontent.com/api-evangelist/taiga/refs/heads/main/apis.yml
+created: "2026-06-13"
+modified: "2026-06-13"
+specificationVersion: "0.19"
+tags:
+  - Agile
+  - Project Management
+  - Scrum
+  - Kanban
+  - Issue Tracking
+  - Open Source
+  - Sprints
+  - User Stories
+  - Epics
+  - Tasks
+apis:
+  - aid: taiga:taiga-rest-api
+    name: Taiga REST API
+    description: >
+      Full-featured REST API for the Taiga agile project management platform,
+      providing programmatic access to projects, milestones, epics, user stories,
+      tasks, issues, wiki pages, webhooks, timelines, users, and importers from
+      Trello, GitHub, and Jira.
+    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://docs.taiga.io/api.html
+    baseURL: https://api.taiga.io/api/v1
+    tags:
+      - Agile
+      - Project Management
+      - Scrum
+      - Kanban
+      - User Stories
+      - Issues
+      - Tasks
+      - Epics
+      - Sprints
+      - Webhooks
+    properties:
+      - type: Documentation
+        url: https://docs.taiga.io/api.html
+common:
+  - type: Website
+    url: https://taiga.io
+  - type: Documentation
+    url: https://docs.taiga.io/api.html
+  - type: GitHubOrg
+    url: https://github.com/taigaio/
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/taigaio
+  - type: Blog
+    url: https://blog.taiga.io
+  - type: Pricing
+    url: https://taiga.io/deployment-pricing-options/
+  - type: StatusPage
+    url: https://status.taiga.io
+  - type: X
+    url: https://twitter.com/taigaio
+  - type: Plans
+    url: plans/taiga-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/taiga-rate-limits.yml
+  - type: FinOps
+    url: finops/taiga-finops.yml
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com

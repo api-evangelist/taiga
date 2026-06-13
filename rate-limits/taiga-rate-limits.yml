@@ -1,0 +1,39 @@
+name: Taiga API Rate Limits
+description: Rate limiting and throttling information for the Taiga REST API
+url: https://docs.taiga.io/api.html
+notes: >
+  Taiga implements optional throttling at the server configuration level.
+  When throttling is enabled, the API returns HTTP 429 (Too Many Requests)
+  when the limit is exceeded. Specific rate limit thresholds depend on the
+  deployment configuration and plan. Self-hosted instances can configure
+  custom throttling settings. The cloud-hosted service may apply limits
+  that are not publicly documented.
+limits:
+  - name: Throttling
+    description: Configurable server-side throttling that returns 429 when exceeded
+    type: requests
+    enabled: optional
+    response_code: 429
+    response_message: Too Many Requests
+  - name: Pagination Default
+    description: Default page size for list endpoints
+    type: records_per_page
+    default: 30
+    configurable: true
+    header: x-disable-pagination
+    notes: Pagination can be disabled by sending x-disable-pagination True header
+headers:
+  - name: x-paginated
+    description: Indicates whether the response is paginated
+    type: response
+  - name: x-paginated-by
+    description: Number of items per page
+    type: response
+  - name: x-disable-pagination
+    description: Set to True to disable pagination and return all results
+    type: request
+    value: "True"
+error_responses:
+  - code: 429
+    message: Too Many Requests
+    description: Returned when API throttling limit is reached; back off and retry

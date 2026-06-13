@@ -1,0 +1,97 @@
+name: Taiga Plans and Pricing
+description: Pricing plans for Taiga cloud-hosted agile project management platform
+url: https://taiga.io/deployment-pricing-options/
+plans:
+  - name: Free
+    description: Free cloud-hosted plan for individuals and small teams getting started with agile project management
+    price: 0
+    currency: EUR
+    billing_period: monthly
+    features:
+      - 1 public project
+      - 1 private project
+      - Up to 10MB storage
+      - Unlimited users
+      - Community support
+      - Kanban and Scrum boards
+      - Issue tracking
+      - REST API access
+  - name: Enthusiast
+    description: Affordable plan for small teams needing more projects and storage
+    price: 5
+    currency: EUR
+    billing_period: monthly
+    annual_price: 50
+    features:
+      - 5 public projects
+      - 5 private projects
+      - Up to 100MB storage
+      - Unlimited users
+      - Community support
+      - Kanban and Scrum boards
+      - Issue tracking
+      - REST API access
+      - Webhooks
+  - name: Basic
+    description: Standard plan for growing teams with unlimited projects
+    price: 20
+    currency: EUR
+    billing_period: monthly
+    annual_price: 200
+    features:
+      - Unlimited projects
+      - Up to 500MB storage
+      - Unlimited users
+      - Basic support
+      - Kanban and Scrum boards
+      - Issue tracking
+      - REST API access
+      - Webhooks
+      - Importers (Trello, GitHub, Jira)
+  - name: Premium
+    description: Premium plan for larger teams needing more storage and priority support
+    price: 60
+    currency: EUR
+    billing_period: monthly
+    annual_price: 600
+    features:
+      - Unlimited projects
+      - Up to 3GB storage
+      - Unlimited users
+      - Premium support
+      - Kanban and Scrum boards
+      - Issue tracking
+      - REST API access
+      - Webhooks
+      - Importers (Trello, GitHub, Jira)
+      - Advanced reporting
+  - name: Private Cloud
+    description: Managed private cloud deployment with dedicated resources
+    price: custom
+    currency: EUR
+    billing_period: monthly
+    features:
+      - 8GB RAM, 2 vCPU, 100GB SSD storage
+      - Unlimited projects
+      - Unlimited users
+      - Managed hosting
+      - Auto-scaling
+      - Control dashboard
+      - Priority support
+      - REST API access
+      - Webhooks
+  - name: On-Premise
+    description: Self-hosted enterprise deployment with full control
+    price: custom
+    currency: EUR
+    billing_period: monthly
+    features:
+      - Unlimited projects
+      - Unlimited users
+      - Priority support with SLA
+      - Firewall/VPN compatible
+      - Installation support
+      - Managed updates
+      - Full data ownership
+      - REST API access
+      - Webhooks

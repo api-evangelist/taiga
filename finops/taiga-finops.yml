@@ -1,0 +1,54 @@
+name: Taiga FinOps
+description: Financial operations guidance for managing Taiga API costs and usage
+url: https://taiga.io/deployment-pricing-options/
+summary: >
+  Taiga offers a free tier and affordable cloud plans priced in EUR with
+  annual discounts. Cost optimization centers on project count, storage,
+  and support tier requirements. Self-hosted and on-premise options provide
+  fixed infrastructure costs with no per-API-call fees.
+cost_model:
+  type: flat_rate
+  currency: EUR
+  billing_options:
+    - monthly
+    - annual
+  annual_discount: true
+  notes: Annual billing saves approximately 2 months cost versus monthly billing
+optimization:
+  - recommendation: Start with the Free plan to evaluate API capabilities
+    impact: Eliminate cost for proof-of-concept and small teams
+  - recommendation: Use annual billing on paid plans
+    impact: Save approximately 16% versus monthly billing
+  - recommendation: Monitor storage usage to stay within plan limits
+    impact: Avoid needing to upgrade plans solely due to attachment/file storage
+  - recommendation: Consider self-hosted deployment for large teams
+    impact: Fixed infrastructure cost; no per-user or per-project fees on open-source edition
+  - recommendation: Use pagination headers to control API response sizes
+    impact: Reduce data transfer and processing overhead
+  - recommendation: Leverage webhooks instead of polling endpoints
+    impact: Reduce API call volume and associated processing overhead
+cost_tiers:
+  - plan: Free
+    monthly_eur: 0
+    annual_eur: 0
+    best_for: Individuals, evaluation, small side projects
+  - plan: Enthusiast
+    monthly_eur: 5
+    annual_eur: 50
+    best_for: Freelancers and small teams with a few active projects
+  - plan: Basic
+    monthly_eur: 20
+    annual_eur: 200
+    best_for: Growing teams needing unlimited projects with basic support
+  - plan: Premium
+    monthly_eur: 60
+    annual_eur: 600
+    best_for: Larger teams requiring more storage and premium support
+  - plan: Private Cloud
+    monthly_eur: custom
+    annual_eur: custom
+    best_for: Enterprises needing dedicated infrastructure and managed hosting
+  - plan: On-Premise
+    monthly_eur: custom
+    annual_eur: custom
+    best_for: Organizations with data sovereignty requirements or air-gapped environments
