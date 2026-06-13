@@ -1,0 +1,29 @@
+{
+  "@context": "https://schema.org",
+  "@type": "WebAPI",
+  "@id": "https://api.taiga.io/api/v1/",
+  "name": "Taiga REST API",
+  "description": "Full-featured REST API for the Taiga agile project management platform, providing programmatic access to projects, milestones, epics, user stories, tasks, issues, wiki pages, webhooks, timelines, users, and importers from Trello, GitHub, and Jira.",
+  "url": "https://docs.taiga.io/api.html",
+  "termsOfService": "https://taiga.io/terms-of-service/",
+  "provider": {
+    "@type": "Organization",
+    "name": "Taiga Cloud Services",
+    "url": "https://taiga.io"
+  },
+  "documentation": "https://docs.taiga.io/api.html",
+  "endpointUrl": "https://api.taiga.io/api/v1/",
+  "softwareVersion": "v1",
+  "category": [
+    "Agile",
+    "Project Management",
+    "Scrum",
+    "Kanban",
+    "Issue Tracking"
+  ],
+  "availableChannel": {
+    "@type": "ServiceChannel",
+    "serviceUrl": "https://api.taiga.io/api/v1/",
+    "serviceType": "REST API"
+  }
+}

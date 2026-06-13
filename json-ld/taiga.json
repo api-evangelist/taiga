@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "@id": "https://taiga.io",
+  "name": "Taiga",
+  "description": "Taiga is an open-source agile project management platform with a comprehensive REST API for managing projects, sprints, user stories, issues, tasks, epics, wiki pages, webhooks, and team member assignments.",
+  "url": "https://taiga.io",
+  "applicationCategory": "ProjectManagementApplication",
+  "operatingSystem": "Web",
+  "offers": {
+    "@type": "Offer",
+    "url": "https://taiga.io/deployment-pricing-options/"
+  },
+  "maintainer": {
+    "@type": "Organization",
+    "name": "Taiga Cloud Services",
+    "url": "https://taiga.io",
+    "sameAs": [
+      "https://github.com/taigaio/",
+      "https://twitter.com/taigaio",
+      "https://www.linkedin.com/company/taigaio"
+    ]
+  },
+  "softwareVersion": "6.10.1",
+  "license": "https://github.com/taigaio/taiga-back/blob/main/LICENSE",
+  "isAccessibleForFree": true,
+  "featureList": [
+    "Agile project management",
+    "Scrum and Kanban boards",
+    "User stories and epics",
+    "Issue tracking",
+    "Sprint management",
+    "Wiki pages",
+    "Webhooks",
+    "Custom attributes",
+    "Importers from Trello, GitHub, Jira, and Asana",
+    "REST API",
+    "Self-hosted deployment option"
+  ],
+  "potentialAction": {
+    "@type": "ReadAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://api.taiga.io/api/v1/",
+      "actionPlatform": "http://schema.org/MobileWebPlatform"
+    }
+  },
+  "sameAs": [
+    "https://github.com/taigaio/",
+    "https://twitter.com/taigaio",
+    "https://www.linkedin.com/company/taigaio",
+    "https://community.taiga.io"
+  ]
+}
