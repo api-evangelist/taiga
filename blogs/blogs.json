@@ -88,5 +88,14 @@
       "url": "https://community.taiga.io/t/a-modern-open-source-project-management-platform/180",
       "date": "2022-08-19"
     }
-  ]
+  ],
+  "repo": "taiga",
+  "feeds": [
+    {
+      "source": "https://www.linkedin.com/company/taigaio",
+      "error": "HTTPError"
+    }
+  ],
+  "post_count": 0,
+  "fetched": "2026-06-14T20:42:17Z"
 }
