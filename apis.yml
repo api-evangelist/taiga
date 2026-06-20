@@ -7,7 +7,7 @@ description: >
   standard bearer token and application token authentication, with optional
   server-side throttling. Available as a cloud-hosted service or self-hosted
   deployment.
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 url: https://raw.githubusercontent.com/api-evangelist/taiga/refs/heads/main/apis.yml
 created: "2026-06-13"
 modified: "2026-06-13"
@@ -31,7 +31,7 @@ apis:
       providing programmatic access to projects, milestones, epics, user stories,
       tasks, issues, wiki pages, webhooks, timelines, users, and importers from
       Trello, GitHub, and Jira.
-    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://docs.taiga.io/api.html
     baseURL: https://api.taiga.io/api/v1
     tags:
