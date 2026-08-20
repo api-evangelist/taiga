@@ -30,6 +30,17 @@ tags:
   - Scrum
   - Kanban
   - Issue Tracking
+  - Open-Source
+  - Sprints
+  - User Stories
+  - Epics
+  - Task
+tags_raw:
+  - Agile
+  - Project Management
+  - Scrum
+  - Kanban
+  - Issue Tracking
   - Open Source
   - Sprints
   - User Stories
@@ -47,6 +58,17 @@ apis:
     humanURL: https://docs.taiga.io/api.html
     baseURL: https://api.taiga.io/api/v1
     tags:
+      - Agile
+      - Project Management
+      - Scrum
+      - Kanban
+      - User Stories
+      - Issues
+      - Task
+      - Epics
+      - Sprints
+      - Webhook
+    tags_raw:
       - Agile
       - Project Management
       - Scrum
