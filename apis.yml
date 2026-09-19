@@ -44,7 +44,7 @@ tags:
   - Open-Source
   - Sprints
   - User Stories
-  - Epics
+  - Epic
   - Task
 tags_raw:
   - Agile
@@ -76,7 +76,7 @@ apis:
       - User Stories
       - Issues
       - Task
-      - Epics
+      - Epic
       - Sprints
       - Webhook
     tags_raw:
