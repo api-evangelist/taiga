@@ -3,7 +3,10 @@
   "feeds": [
     {
       "source": "https://www.linkedin.com/company/taigaio",
-      "error": "HTTPError"
+      "feed_url": "https://www.linkedin.com/company/taigaio",
+      "title": "",
+      "saved": 0,
+      "method": "none"
     },
     {
       "source": "https://community.taiga.io/c/announcements/5.rss",
@@ -13,7 +16,7 @@
       "method": "feed"
     }
   ],
-  "fetched": "2026-09-13T13:00:00Z",
+  "fetched": "2026-09-19T20:17:39Z",
   "post_count": 50,
   "feed_nature": "support-community",
   "feed_nature_basis": "discourse_topic",
