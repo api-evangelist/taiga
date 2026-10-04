@@ -41,7 +41,7 @@ tags:
   - Scrum
   - Kanban
   - Issue Tracking
-  - Open-Source
+  - Open Source
   - Sprints
   - User Stories
   - Epic
@@ -57,6 +57,7 @@ tags_raw:
   - User Stories
   - Epics
   - Tasks
+  - Open-Source
 apis:
   - aid: taiga:taiga-rest-api
     name: Taiga REST API
