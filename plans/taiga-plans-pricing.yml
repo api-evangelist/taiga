@@ -99,3 +99,48 @@ plans:
       - Full data ownership
       - REST API access
       - Webhooks
+x-canonical:
+  generated: '2026-10-08'
+  vocabulary: all/0-working/economics/plans-canonical.yml
+  models:
+  - free
+  - negotiated
+  - subscription
+  units: []
+  plans:
+  - name: Free
+    access: other
+    model: free
+    model_how: derived
+    units: []
+    periods: []
+  - name: Enthusiast
+    access: other
+    model: subscription
+    model_how: derived
+    units: []
+    periods: []
+  - name: Basic
+    access: other
+    model: subscription
+    model_how: derived
+    units: []
+    periods: []
+  - name: Premium
+    access: other
+    model: subscription
+    model_how: derived
+    units: []
+    periods: []
+  - name: Private Cloud
+    access: other
+    model: negotiated
+    model_how: derived
+    units: []
+    periods: []
+  - name: On-Premise
+    access: other
+    model: negotiated
+    model_how: derived
+    units: []
+    periods: []
