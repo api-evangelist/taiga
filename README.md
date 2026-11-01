@@ -1,4 +1,4 @@
-# Taiga (taiga)
+# Taiga
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,67 +66,105 @@
 
 Taiga is an open-source agile project management platform with a comprehensive REST API for managing projects, sprints, user stories, issues, tasks, epics, wiki pages, webhooks, and team member assignments. The API supports both standard bearer token and application token authentication, with optional server-side throttling. Available as a cloud-hosted service or self-hosted deployment.
 
-**APIs.json:** [https://raw.githubusercontent.com/api-evangelist/taiga/refs/heads/main/apis.yml](https://raw.githubusercontent.com/api-evangelist/taiga/refs/heads/main/apis.yml)
+**Areas:** Agile · Project Management · Scrum · Kanban · Issue Tracking · Open Source · Sprints · User Stories · Epic · Task
 
-## Tags
+## Taiga on APIs.io
 
-- Agile
-- Project Management
-- Scrum
-- Kanban
-- Issue Tracking
-- Open Source
-- Sprints
-- User Stories
-- Epics
-- Tasks
+Everything profiled for Taiga is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/taiga/](https://apis.io/providers/taiga/)** — or go straight to one of the APIs or properties below.
 
-## Timestamps
+### APIs (1)
 
-- **Created:** 2026-06-13
-- **Modified:** 2026-06-13
+- [Taiga REST API](https://apis.io/apis/taiga/taiga-rest-api/) — Full-featured REST API for the Taiga agile project management platform, providing programmatic access to projects, milestones, epics, user stories, tasks,…
 
-## APIs
+### Published properties
 
-### Taiga REST API
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-Full-featured REST API for the Taiga agile project management platform, providing programmatic access to projects, milestones, epics, user stories, tasks, issues, wiki pages, webhooks, timelines, users, and importers from Trello, GitHub, and Jira.
+#### Security (3)
 
-- **Human URL:** [https://docs.taiga.io/api.html](https://docs.taiga.io/api.html)
-- **Base URL:** `https://api.taiga.io/api/v1`
+Authentication, trust centre, and vulnerability disclosure.
 
-#### Tags
+- [Taiga Domain Security](https://apis.io/security/taiga/taiga-domain-security/)
+- [Taiga Trust Center](https://apis.io/security/taiga/taiga-trust-center/)
+- [Taiga Vulnerability Disclosure](https://apis.io/security/taiga/taiga-vulnerability-disclosure/)
 
-- Agile
-- Project Management
-- Scrum
-- Kanban
-- User Stories
-- Issues
-- Tasks
-- Epics
-- Sprints
-- Webhooks
+#### Plans and pricing (1)
 
-#### Properties
+Published plans, tiers and prices.
 
-- [Documentation](https://docs.taiga.io/api.html)
+- [Taiga Plans Pricing](https://apis.io/plans/taiga/taiga-plans-pricing/)
 
-## Common Properties
+#### Rate limits (1)
+
+Published request limits.
+
+- [Taiga Rate Limits](https://apis.io/rate-limits/taiga/taiga-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Taiga Finops](https://apis.io/finops/taiga/taiga-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://taiga.io)
 - [Documentation](https://docs.taiga.io/api.html)
-- [Git Hub Org](https://github.com/taigaio/)
-- [LinkedIn](https://www.linkedin.com/company/taigaio)
-- [Blog](https://blog.taiga.io)
 - [Pricing](https://taiga.io/deployment-pricing-options/)
-- [Status Page](https://status.taiga.io)
-- [X (Twitter)](https://twitter.com/taigaio)
-- [Plans](plans/taiga-plans-pricing.yml)
-- [Rate Limits](rate-limits/taiga-rate-limits.yml)
-- [Fin Ops](finops/taiga-finops.yml)
+- [Blog](https://blog.taiga.io)
+- [Status](https://status.taiga.io)
 
-## Maintainers
+## API Evangelist rating
 
-**FN:** Kin Lane
-**Email:** kin@apievangelist.com
+**Kin Score 16.4** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 18.4 |
+| Developer ergonomics | 9.5 |
+| Access clarity | 26.3 |
+
+**Agent readiness 0.6** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 16.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/taiga/](https://apis.io/providers/taiga/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Taiga: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/taiga/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
